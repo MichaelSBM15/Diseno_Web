@@ -27,3 +27,34 @@ La poesía.</p> <br>
     <dt>Elemento</dt>
     <dd>Primer elemento</dd>
 </dl>
+
+
+## TAQUERIA ##
+
+<h1> <b>  TAQUERÍA LOS LIM🍋NES </b> </h1>
+
+<h3>Los más ricos del barrio.</h3>
+
+<img src="rosca_de_tacos.jpg" width="500" alt="rosca_de_tacos"> 
+
+<h2> <b> MENÚ </b></h2>
+
+<h3> <i> Básicos </i></h3>
+<ul>
+    1. Pastor ........................................... $10.00 <br>
+    2. Suadero .......................................... $12.00 <br>
+    3. Campechanos ..................................$13.00 <br>
+    4. Longaniza ........................................ $11.00 <br>
+</ul>
+
+<h3> <i> Especiales </i></h3>
+<dl>
+    <dt>Gringa ............................................. $30.00</dt>
+    <dd>Tortilla de harina, queso oaxaca, aguacate, jitomate, cebolla</dd>
+
+    <dt>Sopa Azteca ......................................$45.00 </dt>
+    <dd>Tortilla dura, aguacate, limón, chile ancho, caldo de jitomate, queso oaxaca </dd>
+
+    <dt>Sopes .............................................. $35.00 </dt>
+    <dd>Carne molida o bisteck, queso oaxaca, limón, crema, queso rayado.</dd>
+</dl>
