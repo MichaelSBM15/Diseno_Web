@@ -29,25 +29,19 @@ La poesía.</p> <br>
 </dl>
 
 
-## TAQUERIA ##
 
 <h1> <b>  TAQUERÍA LOS LIM🍋NES </b> </h1>
-
 <h3>Los más ricos del barrio.</h3>
-
-<img src="rosca_de_tacos.jpg" width="500" alt="rosca_de_tacos"> 
-
+<img src="Tacos 1.jpg" width="500" alt="rosca_de_tacos"> 
 <h2> <b> MENÚ </b></h2>
-
-<h3> <i> Básicos </i></h3>
+<h3> <i> BÁSICOS </i></h3>
 <ul>
-    1. Pastor ........................................... $10.00 <br>
-    2. Suadero .......................................... $12.00 <br>
-    3. Campechanos ..................................$13.00 <br>
-    4. Longaniza ........................................ $11.00 <br>
+    1. Pastor ........................................... $10.00 <br></br>
+    2. Suadero .......................................... $12.00 <br></br>
+    3. Campechanos ..................................$13.00 <br></br>
+    4. Longaniza ........................................ $11.00 <br></br>
 </ul>
-
-<h3> <i> Especiales </i></h3>
+<h3> <i> ESPECIALIDADES </i></h3>
 <dl>
     <dt>Gringa ............................................. $30.00</dt>
     <dd>Tortilla de harina, queso oaxaca, aguacate, jitomate, cebolla</dd>
@@ -58,3 +52,76 @@ La poesía.</p> <br>
     <dt>Sopes .............................................. $35.00 </dt>
     <dd>Carne molida o bisteck, queso oaxaca, limón, crema, queso rayado.</dd>
 </dl>
+<table border="1">    
+    <tr>
+        <th><i> BEBIDAS </i></th>
+    </tr>
+    <tr>
+        <th></th>
+        <th></th>
+        <th>Vaso</th>
+        <th>Litro</th>
+    </tr>
+
+    <tr>
+        <th>Aguas</th>
+        <th>Cremas</th>
+        <th>20</th>
+       <th>40</th>
+    </tr>
+
+    <tr>
+        <td>Horcha</td>
+        <td>Piña</td>
+        <td>25</td>
+        <td>45</td>
+    </tr>
+    <tr>
+        <td>Limon</td>
+        <td>Coco</td>
+        <td>27</td>
+        <td>46</td>
+    </tr>
+    <tr>
+        <td>Jamaica</td>
+        <td>Fresa</td>
+        <td>30</td>
+        <td>48</td>
+    </tr>
+</table>
+<hr></hr>
+<h2>¡¡Ordena ya tus taquitos!!</h2>
+<form   action="https://formspree.io/f/xzbqgyed" method="POST">
+    NOMBRE COMPLETO: <input type="text" name="NOMBRE" placeholder="Escribe tu nombre: ej. Claudia Chang Ortiz" size="80"> <br></br>
+    DIRECCIÓN:<input type="text" name="DIRECCIÓN" placeholder="Dirección: Calle, Número, Colonia, Municipio, Estado, C.P." size="70"> <br></br>
+    NÚMERO TELEFÓNICO: <input type="tel" name="NÚMERO DE TELEFÓNO" placeholder="5547186036" size="30" minlength="10" maxlength="10"> <br></br>
+    CORREO ELECTRÓNICO: <input type="email" name="CORREO ELECTRÓNICO" placeholder="ej.taquitos-el-limón@hotmail.com" name="e-mail" size="30"> <br><br>
+    
+    ¿De qué taquitos le ponemos?     
+    <select name="TACOS">
+        <option value="------">------</option>
+        <option value="Pastor">Pastor</option>
+        <option value="Suadero">Suadero</option>
+        <option value="Campechanos">Campechanos</option>
+        <option value="Longaniza">Longaniza</option>
+
+    </select>
+
+    ¿Cuántos taquitos le ponemos?
+    <input type="number" min="0" max="100" name="NÚMERO DE TACOS"><br></br>
+
+    <input type="radio" name="cebolla" value="cebolla"> Cebolla <br>
+    <input type="radio" name="Cilantro" value="Cilantro"> Cilantro <br>
+    <input type="radio" name="Limones" value="Limones"> Limones <br> <br>
+
+    Salsa <br>
+    <input type="radio" name="Salsa Verde" value="Verde" > Verde
+    <input type="radio" name="Salsa Roja" value="Roja" > Roja <br><br>
+
+    <input type="submit" value="¡¡Ordena ya!!">
+    <input type="reset" value="Restablecer formulario."><br></br>
+
+</form>
+
+
+
