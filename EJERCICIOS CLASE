@@ -124,4 +124,49 @@ La poesía.</p> <br>
 </form>
 
 
+    ##MOODLE EJERCICIO 2 ##
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>extension.html</title>
+</head>
+<body>
+    <header>
+        <h1>ENCABEZADO NIVEL 1</h1>
+        <nav>
+            <a href="">ENLACE 1</a>
+            <a href="">ENLACE 2</a>
+            <a href="">ENLACE 3</a>
+            <a href="">ENLACE 4</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Encabezado nivel 2</b></h2>
+            <p>Aquí va el primer <b>párrafo</b>.</p>
+            <p>Aquí va texto del segundo párrafo.</p>
+        </section>
+        <aside>
+            <h3>Apartado</h3>
+            <p>elige una opción</p>
+            <form>
+                <input type="checkbox" name="Opción 1" value="Opción"> Opción 1 <br>
+                <input type="checkbox" name="Opción 2" value="Opción"> Opción 2<br>
+                <input type="checkbox" name="Opción 3" value="Opción"> Opción 3<br>
+                <input type="submit" value="ENVIAR">
+            </form>
+        </aside>
+    </main>
+    <footer>
+        <p>Sección de información de contacto. derechos de autor, etc.</p>
+    </footer>
+    
+</body>
+</html>
+
+
+
 
